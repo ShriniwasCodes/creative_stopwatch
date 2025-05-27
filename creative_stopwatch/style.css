@@ -1,0 +1,41 @@
+body {
+    background-color: #214478;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.stopwatch-container {
+    background: #162945;
+    color: white;
+    padding: 30px;
+    border-radius: 20px;
+    text-align: center;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.4);
+}
+
+#display {
+    font-size: 60px;
+    margin: 20px 0;
+}
+
+.buttons button {
+    background-color: #00cfff;
+    border: none;
+    padding: 10px 20px;
+    margin: 5px;
+    border-radius: 12px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.credit-text {
+    margin-top: 20px;
+    font-size: 18px;
+    font-weight: bold;
+    color: white;
+}
